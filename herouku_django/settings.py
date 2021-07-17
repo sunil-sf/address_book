@@ -27,7 +27,7 @@ DEBUG = False
 
 # debug must be set False during deployment on the server
 # Here below are allowed host for my this django project.
-ALLOWED_HOSTS = ['address-book-india.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['address-book-india.herokuapp.com','localhost']
 
 
 # Application definition
