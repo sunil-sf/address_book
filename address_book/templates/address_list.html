@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <h1>Address List will be shown up here:</h1>
+    <div class="row">
+       <table class="table">
+           <thead>
+           <tr>
+               <th>Name</th>
+           </tr>
+           </thead>
+           <tbody>
+
+           {% for address in addresses %}
+           <tr>
+               <td>{{address.name}}</td>
+           </tr>
+           </tbody>
+           {% endfor %}
+       </table>
+    </div>
+</div>
+{% endblock content %}
